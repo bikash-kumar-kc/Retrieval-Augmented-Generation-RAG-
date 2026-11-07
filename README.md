@@ -17,11 +17,11 @@ This projects show the document ingestion process that includes **Parsing**, **C
 In this project I have used : **PDF Parser for parsing**, **Textsplitter from Langchain for chunking** , and **Pine cone for vector embedding and vector uploading**.
 
 ### Retrievel Pipeline.
-To provide only the relevant context the **retrieval pipeline** first embed the query and then do **vector similarity** search and retrieve the **relevant chunks** and feed to llm.
+To provide only the relevant context the **retrieval pipeline** first embed the query and then do **vector similarity** search and retrieve the **relevant chunks** and feed to LLM.
 
 ### Citation Pipeline.
 As we know the LLM does hallucinate so the evidence or the proof weather the response is correct or not is major problem. To solve this
-I have implemented the **CITATION PIPELINE** that cites from which page of the document is used to **response by llm**.
+I have implemented the **CITATION PIPELINE** that cites from which page of the document is used to **response by LLM**.
 
 #### Process Involves:
 1. First of all , this process takes the *retrieve chunks* from the ***Retrievel Pipeline*** and then try to extract the *exact quotes*

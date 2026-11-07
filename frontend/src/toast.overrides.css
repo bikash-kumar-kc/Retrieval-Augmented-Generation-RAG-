@@ -1,0 +1,56 @@
+.Toastify__toast {
+  padding: 0;
+  min-height: unset;
+  border-radius: 1rem;
+  border: 1px solid #e4e4e7;
+  background: #f8fafc !important;
+  color: #18181b;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.06);
+  font-family: inherit;
+  overflow: hidden;
+}
+
+.Toastify__toast-body {
+  padding: 1rem;
+  margin: 0;
+  align-items: center;
+}
+
+/* Success */
+.Toastify__toast--success {
+  background: #dcfce7 !important;
+  color: #14532d;
+  border: 1px solid #86efac;
+}
+
+/* Error */
+.Toastify__toast--error {
+  background: #fee2e2 !important;
+  color: #7f1d1d;
+  border: 1px solid #fca5a5;
+}
+
+/* Warning */
+.Toastify__toast--warning {
+  background: #fef3c7 !important;
+  color: black !important;
+  border: 1px solid #fcd34d;
+}
+
+/* Info */
+.Toastify__toast--info {
+  background: #dbeafe !important;
+  color: #1e3a8a;
+  border: 1px solid #93c5fd;
+}
+
+.Toastify__close-button {
+  color: currentColor;
+  opacity: 0.6;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}

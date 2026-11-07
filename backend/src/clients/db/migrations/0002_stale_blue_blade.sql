@@ -1,0 +1,1 @@
+ALTER TABLE `documents` ADD `agent_router_prompt` text;

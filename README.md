@@ -46,5 +46,15 @@ I have implemented the **CITATION PIPELINE** that cites from which page of the d
         Till date, It works with only pdf.
 
 ## Some ScreenShot:
-![Document_Upload_UI](./frontend/public/projectImages/Document_Upload_Ui)
 
+### Document Upload Section.
+![Document_Upload_UI](./frontend/public/projectImages/Document_Upload_Ui.png)
+
+### Ingestion Pipeline Steps
+![Ingestion_Pipeline_Steps](./frontend/public/projectImages/Ingestion_pipeline_steps.png)
+
+### Chat Section with Citation Bubble
+![Chat_Ui_With_Citation_Bubble](./frontend/public/projectImages/Chat_ui_with_citation_bubble.png)
+
+### Citation Section with highlighted match text.
+![Citation_section](./frontend/public/projectImages/Citation_section.png)
